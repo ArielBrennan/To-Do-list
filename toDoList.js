@@ -43,7 +43,7 @@ if (!input.value.length){
         return;
     } else if (tareas.some(inp => inp.toLowerCase() === input.value.trim().toLowerCase())) {
         alert('Ya existe una tarea con ese nombre');
-        return;
+        //return;
     }; 
 
     tareas = [...tareas, input.value];
