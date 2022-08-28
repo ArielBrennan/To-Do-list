@@ -3,7 +3,7 @@ body {
     width: 100%;
 }
 h1 {
-    width: 10%;
+    width: 15%;
     margin: 20px auto;
 }
 
@@ -48,7 +48,6 @@ h1 + div {
     border-radius: 5px;
     cursor: pointer;
 }
-
 
 .p {
     color: blue;
