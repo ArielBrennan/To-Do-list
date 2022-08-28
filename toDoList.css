@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+h1 {
+    width: 10%;
+    margin: 20px auto;
+}
+
+h1 + div {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#input {
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#botonSubmit {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedorDelContenedor {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contenedor {
+    width: 100%;
+    margin: 20px auto;
+}
+
+#contenedor + div {
+    background-color: green;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#reset {
+    width:100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.p {
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
